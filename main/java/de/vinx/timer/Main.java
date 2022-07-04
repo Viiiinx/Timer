@@ -65,19 +65,19 @@ public class Main extends JavaPlugin {
 
 		messages = new ArrayList<String>();
 
-		messages.add(getConfig().getString("resume").replace("§", " "));        	//0
-		messages.add(getConfig().getString("pause").replace("§", " "));         	 	//1
-		messages.add(getConfig().getString("reset").replace("§", " "));				//2
-		messages.add(getConfig().getString("running").replace("§", " "));			//3
-		messages.add(getConfig().getString("not_running").replace("§", " "));		//4
-		messages.add(getConfig().getString("actionbar").replace("§", " "));		//5
-		messages.add(getConfig().getString("paused").replace("§", " "));			//6
-		messages.add(getConfig().getString("over").replace("§", " "));				//7
-		messages.add(getConfig().getString("remain_time").replace("§", " "));	//8
-		messages.add(getConfig().getString("reverse").replace("§", " "));			//9
-		messages.add(getConfig().getString("unreverse").replace("§", " "));		//10
-		messages.add(getConfig().getString("set").replace("§", " "));					//11
-		messages.add(getConfig().getString("get").replace("§", " "));					//12
+		messages.add(getConfig().getString("resume").replace("§", " "));        	
+		messages.add(getConfig().getString("pause").replace("§", " "));         	 	
+		messages.add(getConfig().getString("reset").replace("§", " "));				
+		messages.add(getConfig().getString("running").replace("§", " "));		
+		messages.add(getConfig().getString("not_running").replace("§", " "));		
+		messages.add(getConfig().getString("actionbar").replace("§", " "));		
+		messages.add(getConfig().getString("paused").replace("§", " "));			
+		messages.add(getConfig().getString("over").replace("§", " "));				
+		messages.add(getConfig().getString("remain_time").replace("§", " "));	
+		messages.add(getConfig().getString("reverse").replace("§", " "));		
+		messages.add(getConfig().getString("unreverse").replace("§", " "));		
+		messages.add(getConfig().getString("set").replace("§", " "));					
+		messages.add(getConfig().getString("get").replace("§", " "));					
 
 	}
 
