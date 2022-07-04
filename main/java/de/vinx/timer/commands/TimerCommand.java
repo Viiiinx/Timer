@@ -20,11 +20,7 @@ public class TimerCommand implements CommandExecutor {
 		if (args.length == 0) {
 			if (sender instanceof Player) {
 				Player p = (Player) sender;
-//				TimerGui.openGui(p);
-				//p.sendMessage(Main.getPrefix()+ "�cDas Gui wird derzeit �berarbeitet und steht im n�chsten Update wieder zur Verf�gung");
-				//p.sendMessage(Main.getPrefix()+ "�c�nhttps://www.spigotmc.org/resources/timer.81399/updates");
-				p.sendMessage(Main.getPrefix()+ ChatColor.RED + "Das Gui wird derzeit berarbeitet und steht im nächsten Update wieder zur Verf�gung");
-				p.sendMessage(Main.getPrefix()+ ChatColor.RED + "https://www.spigotmc.org/resources/timer.81399/updates");
+				p.sendMessage(Main.getPrefix()+ ChatColor.RED + "Beispieltext");
 			} else sender.sendMessage(syntax);
 
 			return true;
