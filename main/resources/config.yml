@@ -1,0 +1,20 @@
+
+
+prefix: '§6Timer §7»'
+
+#%d% -> Tage
+#%h% -> Stunden
+#%m% -> Minuten
+#%s% -> Sekunden
+actionbar: '§7» §c§l%h%:%m%:%s%'
+
+#Nachrichten
+resume: '§aDer Timer wurde fortgesetzt'
+pause: '§aDer Timer wurde pausiert'
+reset: '§aDer Timer wurde zurückgesetzt'
+running: '§cDer Timer läuft bereits'
+not_running: '§cDer Timer läuft nicht'
+paused: '§7§ Timer läuft nun rückwärts'
+unreverse: '§aDer Timer läuft nun vorwärts'
+set: '§aDer Timer wurde auf §6%t% §agesetzt'
+get: '§aZeit: §6%t%'

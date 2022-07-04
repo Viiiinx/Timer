@@ -1,0 +1,10 @@
+name: Timer2
+version: '${project.version}'
+main: de.vinx.timer.Main
+api-version: 1.18
+authors: [ Vinx ]
+description: LOL
+commands:
+  timer:
+    usage: /timer <pause/resume/reset/set/reverse>
+    permission: timer.usetimer
